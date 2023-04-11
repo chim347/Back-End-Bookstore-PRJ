@@ -1,4 +1,4 @@
-# Welocme to Lab211 Repository
+# Welocme to Back-End-Bookstore-PRJ Repository
 
 ### You will find in this repo a Java project with the following features included:
 
