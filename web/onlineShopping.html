@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Online Shopping</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Book Store</h1>
+        <h3>
+            <a href="loginPage">Back to Login</a>
+        </h3>
+        <form action="addItemToCartController" method="POST">
+            Choose your item <select name="cboBook">
+                <option>Java</option>
+                <option>OOP</option>
+                <option>Servlet</option>
+                <option>JSP</option>
+                <option>NetBeans</option>
+                <option>JavaBeans</option>
+                <option>Tomcat</option>
+                <option>JSTL</option>
+            </select><br/>
+            <input type="submit" value="AddItemToYourCart" name="btAction">
+        </form>
+        <form action="bookCartBySkuController" method="POST">
+            <input type="submit" value="ViewYourCart" name="btAction">
+        </form>
+        
+    </body>
+</html>
